@@ -1,0 +1,56 @@
+.content {
+    background: #f2f2f2;
+  }
+  body.with_background {
+    background: url("./img-1.png");
+  }
+  @media (max-width: 800px) {
+    body.with_background {
+      background: url("./img-1.png");
+    }
+  }
+  .text-primary {
+    color: #bc42a4;
+  }
+  .principal_bg {
+    background-image: url("data:image/png;base64,");
+  }
+  .survey_button {
+    display: block;
+    width: 100%;
+    background-color: #ed9220;
+  }
+  .survey_button:focus {
+    outline-color: #b1b1b3;
+  }
+  .boxes {
+    background-image: url("./img-1.png");
+  }
+  .add {
+    background-color: #eeeff4;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+  }
+  .add-area {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: none;
+    resize: none;
+  }
+  .add-area:focus {
+    outline-color: #b1b1b3;
+  }
+  .add-btn {
+    margin-top: 5px;
+    background-color: #ed9220;
+    border-color: #ed9220;
+    padding: 0.3rem 0.8rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    color: #fff;
+  }
+  .add-btn:focus {
+    outline-color: #b1b1b3;
+  }
